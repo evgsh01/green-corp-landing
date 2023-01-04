@@ -160,12 +160,6 @@ input {
     outline: none;
 }
 
-button:hover {
-    background-color: #f6980c;
-    box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
-    transition: background-color 0.3s ease-in;
-}
-
 footer {
     padding: 90px 20px;
     font-size: 16px;
@@ -200,98 +194,6 @@ footer {
 
 .footer__links a {
     margin-bottom: 15px;
-}
-
-@media (max-width: 1024px) {
-    .about {
-        padding: 115px 20px;
-    }
-  
-    .about h1 {
-        font-size: 36px;
-        line-height: 40px;
-    }
-  
-    .about__image {
-        width: 280px;
-    }
-  
-    .about__sun-image {
-        width: 75px;
-        height: 75px;
-    }
-}
-
-@media (max-width: 720px) {
-    header {
-        padding: 10px;
-    }
-    .header__logo {
-        height: 20px;
-    }
-    header a {
-        margin-right: 10px;
-    }
-    .about__image {
-        width: 250px;
-    }
-    .about__sun-image {
-        width: 75px;
-        height: 75px;
-    }
-    .about {
-        padding: 50px 10px;
-        flex-direction: column-reverse;
-    }
-    .about h1 {
-        font-size: 36px;
-        line-height: 40px;
-    }
-    .form {
-        padding: 50px 10px;
-    }
-    .form h1 {
-        font-size: 36px;
-    }
-    footer {
-        padding: 50px 10px;
-    }
-    .footer__container {
-        flex-direction: column;
-    }
-    .features {
-        padding: 50px 10px;
-    }
-    .cards {
-        grid-template-columns: auto;
-    }
-    .features__feedback {
-        flex-direction: column;
-    }
-    .features__feedback-left {
-        margin-right: 0px;
-    }
-    .features__feedback-left h2, .features__box h3 {
-        font-size: 36px;
-    }
-    .features__feedback-right {
-        align-items: initial;
-        flex-direction: column;
-    }
-    .features__savings-box {
-        margin-right: 0px;
-        margin-bottom: 30px;
-    }
-    .promo {
-        flex-direction: column-reverse;
-    }
-    .promo__right {
-        padding: 50px 10px;
-    }
-    .promo__image {
-        width: 100%;
-        height: 500px;
-    }
 }
 
 .features {
@@ -452,4 +354,102 @@ footer {
 .promo_button-wrap button .fa-chevron-right {
     font-size: 15px;
     margin-left: 5px;
+}
+
+button:hover {
+    background-color: #f6980c;
+    box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
+    transition: background-color 0.3s ease-in;
+}
+
+@media (max-width: 1024px) {
+    .about {
+        padding: 115px 20px;
+    }
+  
+    .about h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+  
+    .about__image {
+        width: 280px;
+    }
+  
+    .about__sun-image {
+        width: 75px;
+        height: 75px;
+    }
+}
+
+@media (max-width: 720px) {
+    header {
+        padding: 10px;
+    }
+    .header__logo {
+        height: 20px;
+    }
+    header a {
+        margin-right: 10px;
+    }
+    .about__image {
+        width: 250px;
+    }
+    .about__sun-image {
+        width: 75px;
+        height: 75px;
+    }
+    .about {
+        padding: 50px 10px;
+        flex-direction: column-reverse;
+    }
+    .about h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .form {
+        padding: 50px 10px;
+    }
+    .form h1 {
+        font-size: 36px;
+    }
+    footer {
+        padding: 50px 10px;
+    }
+    .footer__container {
+        flex-direction: column;
+    }
+    .features {
+        padding: 50px 10px;
+    }
+    .cards {
+        grid-template-columns: auto;
+    }
+    .features__feedback {
+        flex-direction: column;
+    }
+    .features__feedback-left {
+        margin-right: 0px;
+    }
+    .features__feedback-left h2, .features__box h3 {
+        font-size: 36px;
+    }
+    .features__feedback-right {
+        align-items: initial;
+        flex-direction: column;
+    }
+    .features__savings-box {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .promo {
+        flex-direction: column-reverse;
+    }
+    .promo__right {
+        padding: 50px 10px;
+    }
+    .promo__image {
+        width: 100%;
+        height: 500px;
+    }
 }
